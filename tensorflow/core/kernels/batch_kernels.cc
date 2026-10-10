@@ -1081,7 +1081,7 @@ REGISTER_KERNEL_BUILDER(Name("Unbatch").Device(DEVICE_CPU), UnbatchKernel);
 // deterministically for the gradient of unbatch.
 class UnbatchGradResource : public ResourceBase {
  public:
-  UnbatchGradResource() {}
+  UnbatchGradResource() = default;
 
   std::string DebugString() const final { return "UnbatchGradResource"; }
 
