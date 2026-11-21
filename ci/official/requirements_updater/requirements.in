@@ -33,9 +33,9 @@ portpicker == 1.6.0
 # Scipy 15.x and above have misc.derivative removed, but we still use it
 scipy >= 1.13.0, < 1.15.0 ; python_version <= "3.13"
 scipy >=1.15.0 ; python_version == "3.14"
-requests >= 2.31.0
+requests >= 2.34.2
 packaging==24.2
-setuptools==78.1.1
+setuptools==84.1.0
 jax==0.4.7
 zstandard==0.25.0
 # The dependencies below are needed for TF wheel testing.
